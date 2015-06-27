@@ -1,0 +1,75 @@
+html, body {
+	height: 100%;
+	width: 100;
+	background: #DDDDDD;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.contentbox {
+	background: white;
+	text-align: left;
+}
+
+.topandbottombox { 
+	height: 70px;
+	width: 100%;
+	float: top;
+	background: #333333;
+}
+
+.toptext {
+	height: 35px;
+	width: 100px;
+	color: white;
+	background: #333333;
+	font-family: sans-serif;
+	margin-right: 20px;
+	margin-left: 30px;
+	font-size: 18px;
+	float: left;
+	padding-top: 25px;
+}
+
+.textcontainer{
+	height: 100%;
+	width: 100%;
+}
+
+.textblock {
+	margin-top: 50px;
+	height: 100%;
+	width: 90%;
+	margin-left: 25px;
+	margin-right: 20px;
+	font-family: sans-serif;
+	font-size: 15px;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+}
+
+2 {
+	float:right;
+}
+
+/*.imagebox {
+	height: 100%;
+	width: 40%;
+	background: white;
+	margin-top: 25px;
+}*/
+
+.image img {
+    display: block;
+    max-width: 100%;
+    max-height: auto;
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
+
+.bottom{
+	margin-bottom: 25px;
+}
